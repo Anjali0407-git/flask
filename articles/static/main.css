@@ -1,0 +1,38 @@
+body {
+    background: #fafafa;
+    color: #333333;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #b66e6e;
+  }
+  
+  .bg-steel {
+    background-color: #5f788a;
+  }
+  
+  .content-section {
+    background: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+  }
+  
+  .article-title {
+    color: #444444;
+  }
+  
+  a.article-title:hover {
+    color: #428bca;
+    text-decoration: none;
+  }
+  
+  .article-metadata {
+    padding-bottom: 1px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid #e3e3e3
+  }
+  
+  
+ 

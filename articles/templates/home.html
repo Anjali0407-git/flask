@@ -1,0 +1,19 @@
+
+{% extends "layout.html" %}
+{% block content %}
+<center><h1>All Articles</h1></center>
+    {% for article in articles %}
+        <article class="media content-section">
+          <div class="media-body">
+
+            <div class="article-metadata">
+              By :<b>{{ article.author.username }}</b>
+              (<small class="text-muted">{{ article.date_posted.strftime('%Y-%m-%d') }}</small>)
+            </div>
+            
+            <h4>{{ article.title }}</h4>
+            <p class="article-content">{{ article.content }}</p>
+          </div>
+        </article>
+    {% endfor %}
+{% endblock content %}
